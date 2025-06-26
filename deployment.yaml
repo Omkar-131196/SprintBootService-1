@@ -17,7 +17,7 @@ spec:
 
     spec:
       containers:
-	- name: c1
-	  image: omkar1311/spring:1.0
-	  ports:
-            - containerPort: 8080
+       - name: c1
+         image: omkar1311/spring:1.0
+         ports:
+           - containerPort: 8080
