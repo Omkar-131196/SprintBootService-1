@@ -2,8 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
     name: projectsvc
-
-
+    
 spec:
     ports:
       - port: 8080
