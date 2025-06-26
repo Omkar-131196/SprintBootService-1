@@ -2,13 +2,14 @@ kind: Service
 apiVersion: v1
 metadata:
     name: projectsvc
-    
-spec:
-    ports:
-      - port: 8080
-	targetPort: 8080
-	
-    selector:
-	env: dev
 
-    type: NodePort
+
+spec:
+  ports:
+    - port: 8080
+      targetPort: 8080
+
+  selector:
+    env: dev
+
+  type: NodePort
